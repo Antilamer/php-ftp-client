@@ -1,14 +1,14 @@
 <?php
-namespace altayalp\FtpClient\Tests;
+namespace antilam\FtpClient\Tests;
 
-use altayalp\FtpClient\Directories\SftpDirectory;
+use antilam\FtpClient\Directories\SftpDirectory;
 
 /**
  * Unittest of Directory class
  *
  * @package FtpClient
  * @subpackage Tests
- * @author altayalp <altayalp@gmail.com>
+ * @author antilam <antilam@gmail.com>
  */
 class DirectoryTest extends AbstractTest {
     

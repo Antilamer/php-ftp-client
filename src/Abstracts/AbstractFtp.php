@@ -5,14 +5,14 @@
  * For the full copyright and license information, please view the LICENSE file
  */
 
-namespace altayalp\FtpClient\Abstracts;
+namespace antilam\FtpClient\Abstracts;
 
-use altayalp\FtpClient\FtpTrait;
+use antilam\FtpClient\FtpTrait;
 
 /**
  * Abstract class for File and Directory classes common methods
  *
- * @author altayalp <altayalp@gmail.com>
+ * @author antilam <antilam@gmail.com>
  * @package FtpClient
  * @subpackage Abstracts
  */

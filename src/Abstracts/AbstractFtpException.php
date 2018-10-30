@@ -5,14 +5,14 @@
  * For the full copyright and license information, please view the LICENSE file
  */
 
-namespace altayalp\FtpClient\Abstracts;
+namespace antilam\FtpClient\Abstracts;
 
-use altayalp\FtpClient\Interfaces\ExceptionInterface;
+use antilam\FtpClient\Interfaces\ExceptionInterface;
 
 /**
  * Abstract class for FtpException
  *
- * @author altayalp <altayalp@gmail.com>
+ * @author antilam <antilam@gmail.com>
  * @package FtpClient
  * @subpackage Abstracts
  */

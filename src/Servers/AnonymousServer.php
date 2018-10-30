@@ -5,12 +5,12 @@
  * For the full copyright and license information, please view the LICENSE file.
  */
 
-namespace altayalp\FtpClient\Servers;
+namespace antilam\FtpClient\Servers;
 
 /**
  * Connect to anonymous server
  *
- * @author altayalp <altayalp@gmail.com>
+ * @author antilam <antilam@gmail.com>
  * @package FtpClient
  * @subpackage Servers
  */

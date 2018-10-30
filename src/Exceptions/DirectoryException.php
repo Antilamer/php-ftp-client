@@ -5,14 +5,14 @@
  * For the full copyright and license information, please view the LICENSE file
  */
 
-namespace altayalp\FtpClient\Exceptions;
+namespace antilam\FtpClient\Exceptions;
 
-use altayalp\FtpClient\Abstracts\AbstractFtpException;
+use antilam\FtpClient\Abstracts\AbstractFtpException;
 
 /**
  * Throw when Directory Error
  *
- * @author altayalp <altayalp@gmail.com>
+ * @author antilam <antilam@gmail.com>
  * @package FtpClient
  * @subpackage Exceptions
  */

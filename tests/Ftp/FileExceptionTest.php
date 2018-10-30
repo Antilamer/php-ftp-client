@@ -1,7 +1,7 @@
 <?php
-namespace altayalp\FtpClient\Tests;
+namespace antilam\FtpClient\Tests;
 
-use altayalp\FtpClient\Files\FtpFile;
+use antilam\FtpClient\Files\FtpFile;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -14,7 +14,7 @@ use altayalp\FtpClient\Files\FtpFile;
  *
  * @package FtpClient
  * @subpackage Tests
- * @author altayalp <altayalp@gmail.com>
+ * @author antilam <antilam@gmail.com>
  */
 class FileExceptionTest extends AbstractTest
 {
@@ -28,7 +28,7 @@ class FileExceptionTest extends AbstractTest
     }
     
     /**
-     * @expectedException \altayalp\FtpClient\Exceptions\FileException
+     * @expectedException \antilam\FtpClient\Exceptions\FileException
      */
     public function testUpload()
     {
@@ -36,7 +36,7 @@ class FileExceptionTest extends AbstractTest
     }
     
     /**
-     * @expectedException \altayalp\FtpClient\Exceptions\FileException
+     * @expectedException \antilam\FtpClient\Exceptions\FileException
      */
     public function testRm()
     {

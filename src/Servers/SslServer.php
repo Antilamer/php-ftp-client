@@ -5,14 +5,14 @@
  * For the full copyright and license information, please view the LICENSE file
  */
 
-namespace altayalp\FtpClient\Servers;
+namespace antilam\FtpClient\Servers;
 
-use altayalp\FtpClient\Exceptions\ConnectionFailedException;
+use antilam\FtpClient\Exceptions\ConnectionFailedException;
 
 /**
  * Connect to ssl server
  *
- * @author altayalp <altayalp@gmail.com>
+ * @author antilam <antilam@gmail.com>
  * @package FtpClient
  * @subpackage Servers
  */

@@ -1,20 +1,20 @@
 <?php
-namespace altayalp\FtpClient\Tests;
+namespace antilam\FtpClient\Tests;
 
 /**
  * Test of Server Exceptions
  *
  * @package FtpClient
  * @subpackage Tests
- * @author altayalp <altayalp@gmail.com>
+ * @author antilam <antilam@gmail.com>
  */
 class ServerExceptionTest extends \PHPUnit_Framework_TestCase {
     
     /**
-     * @expectedException \altayalp\FtpClient\Exceptions\ConnectionFailedException
+     * @expectedException \antilam\FtpClient\Exceptions\ConnectionFailedException
      */
     public function testConnectException() {
-        @$server = new \altayalp\FtpClient\Servers\SftpServer('xx.xx.com');
+        @$server = new \antilam\FtpClient\Servers\SftpServer('xx.xx.com');
     }
     
 }

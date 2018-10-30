@@ -1,14 +1,14 @@
 <?php
-namespace altayalp\FtpClient\Tests;
+namespace antilam\FtpClient\Tests;
 
-use \altayalp\FtpClient\Servers\FtpServer;
+use \antilam\FtpClient\Servers\FtpServer;
 
 /**
  * Abstract class for test
  *
  * @package FtpClient
  * @subpackage Tests
- * @author altayalp <altayalp@gmail.com>
+ * @author antilam <antilam@gmail.com>
  */
 
 abstract class AbstractTest extends \PHPUnit_Framework_TestCase {

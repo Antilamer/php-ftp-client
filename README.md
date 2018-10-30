@@ -1,9 +1,9 @@
 # PHP FTP Client Library
 
-[![Build Status](https://travis-ci.org/altayalp/php-ftp-client.svg?branch=master)](https://travis-ci.org/altayalp/php-ftp-client)
-[![Latest Stable Version](https://poser.pugx.org/altayalp/ftp-client/version)](https://packagist.org/packages/altayalp/ftp-client)
-[![Latest Unstable Version](https://poser.pugx.org/altayalp/ftp-client/v/unstable)](//packagist.org/packages/altayalp/ftp-client)
-[![License](https://poser.pugx.org/altayalp/ftp-client/license)](https://packagist.org/packages/altayalp/ftp-client)
+[![Build Status](https://travis-ci.org/antilam/php-ftp-client.svg?branch=master)](https://travis-ci.org/antilam/php-ftp-client)
+[![Latest Stable Version](https://poser.pugx.org/antilam/ftp-client/version)](https://packagist.org/packages/antilam/ftp-client)
+[![Latest Unstable Version](https://poser.pugx.org/antilam/ftp-client/v/unstable)](//packagist.org/packages/antilam/ftp-client)
+[![License](https://poser.pugx.org/antilam/ftp-client/license)](https://packagist.org/packages/antilam/ftp-client)
 
 Php 5.4+ object oriented and unit tested library for FTP and SFTP (ssh ftp) process.
 
@@ -24,13 +24,13 @@ This command will install the library on current dir.
 
 ```php
 // connect to ftp server
-use altayalp\FtpClient\Servers\FtpServer;
+use antilam\FtpClient\Servers\FtpServer;
 
 $server = new FtpServer('ftp.example.com');
 $server->login('user', 'password');
 
 // or connect to ssh server
-use altayalp\FtpClient\Servers\SftpServer;
+use antilam\FtpClient\Servers\SftpServer;
 
 $server = new SftpServer('ssh.example.com');
 $server->login('user', 'password');
@@ -40,13 +40,13 @@ You can call SftpServer class by port or FtpServer class by the port and timeout
 
 ```php
 // connect to ftp server
-use altayalp\FtpClient\Servers\FtpServer;
+use antilam\FtpClient\Servers\FtpServer;
 
 $server = new FtpServer('ftp.example.com', 21, 90);
 $server->login('user', 'password');
 
 // or connect to ssh server
-use altayalp\FtpClient\Servers\SftpServer;
+use antilam\FtpClient\Servers\SftpServer;
 
 $server = new SftpServer('ssh.example.com', 22);
 $server->login('user', 'password');
@@ -63,7 +63,7 @@ $server->turnPassive();
 ### Fetching Files
 
 ```php
-use altayalp\FtpClient\FileFactory;
+use antilam\FtpClient\FileFactory;
 
 $file = FileFactory::build($server);
 $list = $file->ls('public_html');
@@ -107,7 +107,7 @@ Array
 ### Fetching Directories
 
 ```php
-use altayalp\FtpClient\DirectoryFactory;
+use antilam\FtpClient\DirectoryFactory;
 
 $dir = DirectoryFactory::build($server);
 $list = $dir->ls('public_html');
@@ -274,4 +274,4 @@ phpunit tests/Sftp
 
 ### License
 
-The MIT License (MIT). Please see [License File](https://github.com/altayalp/php-ftp-client/blob/master/LICENSE) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/antilam/php-ftp-client/blob/master/LICENSE) for more information.

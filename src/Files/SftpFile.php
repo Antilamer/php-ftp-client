@@ -5,17 +5,17 @@
  * For the full copyright and license information, please view the LICENSE file
  */
 
-namespace altayalp\FtpClient\Files;
+namespace antilam\FtpClient\Files;
 
-use altayalp\FtpClient\Interfaces\FileInterface;
-use altayalp\FtpClient\Abstracts\AbstractSftp;
-use altayalp\FtpClient\Interfaces\ServerInterface;
-use altayalp\FtpClient\Exceptions\FileException;
+use antilam\FtpClient\Interfaces\FileInterface;
+use antilam\FtpClient\Abstracts\AbstractSftp;
+use antilam\FtpClient\Interfaces\ServerInterface;
+use antilam\FtpClient\Exceptions\FileException;
 
 /**
  * File class for ssh file process
  *
- * @author altayalp <altayalp@gmail.com>
+ * @author antilam <antilam@gmail.com>
  * @package FtpClient
  * @subpackage Files
  */

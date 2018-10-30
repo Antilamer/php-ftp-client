@@ -5,20 +5,20 @@
  * For the full copyright and license information, please view the LICENSE file
  */
 
-namespace altayalp\FtpClient\Files;
+namespace antilam\FtpClient\Files;
 
-use altayalp\FtpClient\Interfaces\FileInterface;
-use altayalp\FtpClient\Abstracts\AbstractFtp;
-use altayalp\FtpClient\Interfaces\ServerInterface;
-use altayalp\FtpClient\Exceptions\FileException;
+use antilam\FtpClient\Interfaces\FileInterface;
+use antilam\FtpClient\Abstracts\AbstractFtp;
+use antilam\FtpClient\Interfaces\ServerInterface;
+use antilam\FtpClient\Exceptions\FileException;
 
 /**
  * File class for ftp file process
  *
- * @author altayalp <altayalp@gmail.com>
+ * @author antilam <antilam@gmail.com>
  * @package FtpClient
  * @subpackage Files
- * @link https://github.com/altayalp/php-ftpclient
+ * @link https://github.com/antilam/php-ftpclient
  */
 class FtpFile extends AbstractFtp implements FileInterface
 {

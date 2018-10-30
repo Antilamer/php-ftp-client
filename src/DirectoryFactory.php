@@ -5,19 +5,19 @@
  * For the full copyright and license information, please view the LICENSE file
  */
 
-namespace altayalp\FtpClient;
+namespace antilam\FtpClient;
 
-use altayalp\FtpClient\Interfaces\ServerInterface;
-use altayalp\FtpClient\Interfaces\FactoryInterface;
-use altayalp\FtpClient\Servers\FtpServer;
-use altayalp\FtpClient\Servers\SftpServer;
-use altayalp\FtpClient\Directories\FtpDirectory;
-use altayalp\FtpClient\Directories\SftpDirectory;
+use antilam\FtpClient\Interfaces\ServerInterface;
+use antilam\FtpClient\Interfaces\FactoryInterface;
+use antilam\FtpClient\Servers\FtpServer;
+use antilam\FtpClient\Servers\SftpServer;
+use antilam\FtpClient\Directories\FtpDirectory;
+use antilam\FtpClient\Directories\SftpDirectory;
 
 /**
  * Factory for Directory classes
  *
- * @author altayalp
+ * @author antilam
  */
 class DirectoryFactory implements FactoryInterface
 {

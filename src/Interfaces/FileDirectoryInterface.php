@@ -5,11 +5,11 @@
  * For the full copyright and license information, please view the LICENSE file.
  */
 
-namespace altayalp\FtpClient\Interfaces;
+namespace antilam\FtpClient\Interfaces;
 
 /**
  * Parent interface for file and directory interface
- * @author altayalp <altayalp@gmail.com>
+ * @author antilam <antilam@gmail.com>
  * @package FtpClient
  * @subpackage Interfaces
  */

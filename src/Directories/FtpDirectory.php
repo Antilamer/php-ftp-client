@@ -5,19 +5,19 @@
  * For the full copyright and license information, please view the LICENSE file
  */
 
-namespace altayalp\FtpClient\Directories;
+namespace antilam\FtpClient\Directories;
 
-use altayalp\FtpClient\Interfaces\DirectoryInterface;
-use altayalp\FtpClient\Abstracts\AbstractFtp;
-use altayalp\FtpClient\Interfaces\ServerInterface;
-use altayalp\FtpClient\Exceptions\DirectoryException;
+use antilam\FtpClient\Interfaces\DirectoryInterface;
+use antilam\FtpClient\Abstracts\AbstractFtp;
+use antilam\FtpClient\Interfaces\ServerInterface;
+use antilam\FtpClient\Exceptions\DirectoryException;
 
 /**
  * Directory class for ftp directory process
  *
- * @author altayalp <altayalp@gmail.com>
+ * @author antilam <antilam@gmail.com>
  * @package FtpClient
- * @link https://github.com/altayalp/php-ftpclient
+ * @link https://github.com/antilam/php-ftpclient
  */
 class FtpDirectory extends AbstractFtp implements DirectoryInterface
 {

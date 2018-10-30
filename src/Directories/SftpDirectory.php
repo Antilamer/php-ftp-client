@@ -5,17 +5,17 @@
  * For the full copyright and license information, please view the LICENSE file
  */
 
-namespace altayalp\FtpClient\Directories;
+namespace antilam\FtpClient\Directories;
 
-use altayalp\FtpClient\Interfaces\DirectoryInterface;
-use altayalp\FtpClient\Abstracts\AbstractSftp;
-use altayalp\FtpClient\Interfaces\ServerInterface;
-use altayalp\FtpClient\Exceptions\DirectoryException;
+use antilam\FtpClient\Interfaces\DirectoryInterface;
+use antilam\FtpClient\Abstracts\AbstractSftp;
+use antilam\FtpClient\Interfaces\ServerInterface;
+use antilam\FtpClient\Exceptions\DirectoryException;
 
 /**
  * Directory class for Sftp server
  *
- * @author altayalp <altayalp@gmail.com>
+ * @author antilam <antilam@gmail.com>
  * @package FtpClient
  * @subpackage Directories
  */

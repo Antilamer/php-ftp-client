@@ -5,20 +5,20 @@
  * For the full copyright and license information, please view the LICENSE file
  */
 
-namespace altayalp\FtpClient\Servers;
+namespace antilam\FtpClient\Servers;
 
-use altayalp\FtpClient\Interfaces\ServerInterface;
-use altayalp\FtpClient\Exceptions\ExtensionMissingException;
-use altayalp\FtpClient\Exceptions\ConnectionFailedException;
-use altayalp\FtpClient\Exceptions\AuthenticationFailedException;
+use antilam\FtpClient\Interfaces\ServerInterface;
+use antilam\FtpClient\Exceptions\ExtensionMissingException;
+use antilam\FtpClient\Exceptions\ConnectionFailedException;
+use antilam\FtpClient\Exceptions\AuthenticationFailedException;
 
 /**
  * Connect and log in to ftp server
  *
  * @package FtpClient
  * @subpackage Servers
- * @author altayalp <altayalp@gmail.com>
- * @link https://github.com/altayalp/php-ftpclient
+ * @author antilam <antilam@gmail.com>
+ * @link https://github.com/antilam/php-ftpclient
  */
 class FtpServer implements ServerInterface
 {

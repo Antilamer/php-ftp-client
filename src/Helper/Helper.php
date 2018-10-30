@@ -5,12 +5,12 @@
  * For the full copyright and license information, please view the LICENSE file.
  */
 
-namespace altayalp\FtpClient\Helper;
+namespace antilam\FtpClient\Helper;
 
 /**
  * Helper class for the library
  *
- * @author altayalp <altayalp@gmail.com>
+ * @author antilam <antilam@gmail.com>
  * @package FtpClient
  */
 class Helper

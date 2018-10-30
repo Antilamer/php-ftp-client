@@ -6,7 +6,7 @@
          bootstrap="./tests/bootstrap.php">
     
     <testsuites>
-        <testsuite name="altayalp/FtpClient">
+        <testsuite name="antilam/FtpClient">
             <directory suffix="Test.php">./tests/</directory>
         </testsuite>
     </testsuites>

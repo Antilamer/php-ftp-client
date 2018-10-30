@@ -5,16 +5,16 @@
  * For the full copyright and license information, please view the LICENSE file
  */
 
-namespace altayalp\FtpClient\Servers;
+namespace antilam\FtpClient\Servers;
 
-use altayalp\FtpClient\Interfaces\ServerInterface;
-use altayalp\FtpClient\Exceptions\ExtensionMissingException;
-use altayalp\FtpClient\Exceptions\ConnectionFailedException;
+use antilam\FtpClient\Interfaces\ServerInterface;
+use antilam\FtpClient\Exceptions\ExtensionMissingException;
+use antilam\FtpClient\Exceptions\ConnectionFailedException;
 
 /**
  * Connect and log in to ssh server
  *
- * @author altayalp
+ * @author antilam
  */
 class SftpServer implements ServerInterface
 {

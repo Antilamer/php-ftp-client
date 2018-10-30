@@ -5,12 +5,12 @@
  * For the full copyright and license information, please view the LICENSE file
  */
 
-namespace altayalp\FtpClient\Interfaces;
+namespace antilam\FtpClient\Interfaces;
 
 /**
  * Interface for Factory Classes
  * 
- * @author altayalp <altayalp@gmail.com>
+ * @author antilam <antilam@gmail.com>
  * @package FtpClient
  * @subpackage Interfaces
  */
