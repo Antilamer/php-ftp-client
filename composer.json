@@ -1,4 +1,8 @@
 {
+    "application": {
+        "name": "FTP and SFTP client for Php",
+        "version": "v1.0.1"
+    },
     "name": "antilam/ftp-client",
     "type": "library",
     "description": "FTP and SFTP client for Php",
