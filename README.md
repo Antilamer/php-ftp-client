@@ -14,7 +14,7 @@ Make sure the [PHP FTP](http://php.net/book_ftp) extension is installed or enabl
 The recommended way to install the library is through [composer](https://getcomposer.org/).
 
 ```bash
-composer require altayalp/ftp-client
+composer require antilam/ftp-client
 ```
 
 This command will install the library on current dir.
