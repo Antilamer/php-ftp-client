@@ -1,9 +1,9 @@
 {
-    "name": "altayalp/ftp-client",
+    "name": "antilam/ftp-client",
     "type": "library",
     "description": "FTP and SFTP client for Php",
     "keywords": ["ftp","php ftp","sftp","ssh ftp","ssh","ftp client"],
-    "homepage": "https://github.com/altayalp/php-ftp-client",
+    "homepage": "https://github.com/Antilamer/php-ftp-client",
     "license": "MIT",
     "authors": [
         {
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "altayalp\\FtpClient\\": "src/"
+            "antilam\\FtpClient\\": "src/"
         }
     }
 }
