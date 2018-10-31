@@ -52,6 +52,11 @@ abstract class AbstractSftp
      */
     protected function getLastDirectory()
     {
+        if (self::$lastDirectory === null) {
+          $stream = ssh2_exec($this->session, 'pwd');
+          self::$lastDirectory = stream_get_contents($stream) ?? null;
+        }
+
         return self::$lastDirectory;
     }
     
