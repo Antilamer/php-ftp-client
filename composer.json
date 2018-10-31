@@ -25,7 +25,7 @@
         }
     ],
     "require": {
-        "altayalp/ftp-client": "dev-fix-ftp",
+        "altayalp/ftp-client": "*",
         "php": ">=5.4.0",
 		"ext-ftp": "*"
     },
